@@ -23,8 +23,8 @@ This driver assumes an SPI configuration used on an **ESP32** or similar microco
 
 ## **Project Structure**
 ```text
-├── CMakeLists.txt         # Project-level build configuration[cite: 1]
-├── main/                  # Application source directory[cite: 1]
-│   ├── CMakeLists.txt     # Main component build rules[cite: 1]
-│   └── main.c             # Implementation of SPI logic and FreeRTOS tasks[cite: 1]
-└── README.md              # Project documentation[cite: 1]
+├── CMakeLists.txt         # Project-level build configuration
+├── main/                  # Application source directory
+│   ├── CMakeLists.txt     # Main component build rules
+│   └── main.c             # Implementation of SPI logic and FreeRTOS tasks
+└── README.md              # Project documentation
